@@ -2,10 +2,12 @@ import React from 'react'
 
 const ProductRow = ({name,price}) =>{
     return (
-        <tr>
+        <tbody>
+            <tr>
           <td>{name}</td>
           <td>{price}</td>
-        </tr>
+          </tr>
+        </tbody>
 
     )
 }

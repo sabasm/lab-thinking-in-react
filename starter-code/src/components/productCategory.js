@@ -1,10 +1,12 @@
 import React from 'react'
 
-const ProductCategory = () =>{
+const ProductCategory = ({category}) =>{
     return (
-        <tr>
-          <td>Categoría</td>
-        </tr>
+        <tbody>
+            <tr>
+          <td>{category}</td>
+          </tr>
+        </tbody>
 
     )
 }
