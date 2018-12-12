@@ -1,5 +1,6 @@
 import React from 'react'
-
+import ProductCategory from './productCategory';
+import ProductRow from './productRow';
 const ProductTable = () =>{
     return (
         <div>
@@ -8,13 +9,8 @@ const ProductTable = () =>{
           <th>Nombre</th>
           <th>Precio</th>
         </tr>
-        <tr>
-          <td>Categoría</td>
-        </tr>
-        <tr>
-          <td>NombreProd</td>
-          <td>Precio</td>
-        </tr>
+<ProductCategory/>
+<ProductRow/>
       </table>
       </div>
     )
